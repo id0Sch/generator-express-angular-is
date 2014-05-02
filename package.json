@@ -1,34 +1,14 @@
 {
-  "name": "generator-express",
+  "name": "generator-express-angular-is",
   "version": "1.0.8",
-  "description": "A nodejs express generator for Yeoman",
+  "description": "A nodejs express angular generator for Yeoman",
   "keywords": [
     "yeoman-generator",
     "express",
-    "scaffold"
-  ],
-  "homepage": "https://github.com/petecoop/generator-express",
-  "bugs": "https://github.com/petecoop/generator-express/issues",
-  "author": {
-    "name": "petecoop",
-    "email": "pete@petecoop.co.uk",
-    "url": "http://petecoop.co.uk"
-  },
-  "contributors": [
-    {
-      "name": "nategood",
-      "email": "me@nategood.com",
-      "url": "http://nategood.com"
-    }
+    "is",
+    "angular"
   ],
   "main": "app/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/petecoop/generator-express.git"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
   "dependencies": {
     "yeoman-generator": "~0.16.0"
   },

@@ -19,12 +19,7 @@ fs.readdirSync(modelsPath).forEach(function (file) {
 var app = express();
 
 require('./config/express')(app, config);
-
-var controllersPath = __dirname + '/app/controllers';
-fs.readdirSync(controllersPath).forEach(function (file) {
-  if (file.indexOf('.js') >= 0) {
-    require(controllersPath + '/' + file)(app);
-  }
-});
+require('./config/routes')(app);
 
 app.listen(config.port);
+console.log('app is running on port '+ config.port)

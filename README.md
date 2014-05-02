@@ -1,12 +1,11 @@
-# Generator express
-[![Build Status](https://secure.travis-ci.org/petecoop/generator-express.png?branch=master)](https://travis-ci.org/petecoop/generator-express)
+# Generator express anuglarJS
 
-An Expressjs generator for Yeoman, based on the express command line tool.
+An Express+Angularjs generator for Yeoman, based on the express yeoman generator by the express generator.
 
 ## Getting started
 - Make sure you have [yo](https://github.com/yeoman/yo) installed:
     `npm install -g yo`
-- Install the generator **locally**: `npm install generator-express`
+- Install the generator **locally**: `npm install generator-express-angular-is`
 - Run: `yo express`
 - Run: `grunt` to run the local server at `localhost:3000`, the grunt tasks include live reloading for .jade views, css in public/stylesheets and restarting the server for changes to app.js or js in routes/
 

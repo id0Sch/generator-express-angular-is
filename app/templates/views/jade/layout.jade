@@ -1,12 +1,20 @@
 doctype html
-html(lang='en')
+html(lang='en', ng-app="testApp")
   head
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width')
-    title= title
+    title= modal-title
     block css
       link(rel='stylesheet', href='/css/style.css')
+      link(rel='stylesheet', href="/components/bootstrap/dist/css/bootstrap.css")
     block js
       script(src='http://localhost:35729/livereload.js')
+      script(type="text/javascript", src="/components/jquery/dist/jquery.js")
+      script(type="text/javascript", src="/components/angular/angular.js")
+      script(type="text/javascript", src="/components/bootstrap/dist/js/bootstrap.js")
+          
+    script(type="text/javascript", src="/js/app.js")
+    script(type="text/javascript", src="/js/controllers.js")
+    
   body
     block content
