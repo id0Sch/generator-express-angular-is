@@ -1,6 +1,6 @@
 # Generator express anuglarJS
 
-An Express+Angularjs generator for Yeoman, based on the express yeoman generator by the express generator.
+An Express+Angularjs generator for Yeoman, tailored for my needs.
 
 ## Getting started
 - Make sure you have [yo](https://github.com/yeoman/yo) installed:
