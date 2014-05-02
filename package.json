@@ -2,6 +2,10 @@
   "name": "generator-express-angular-is",
   "version": "1.0.8",
   "description": "A nodejs express angular generator for Yeoman",
+  "repository": {
+   "type": "git",
+    "url": "https://github.com/id0Sch/generator-express-angular-is.git"
+  },
   "keywords": [
     "yeoman-generator",
     "express",
