@@ -1,6 +1,6 @@
 {
   "name": "generator-express-angular-is",
-  "version": "1.0.0",
+  "version": "1.0.0.1",
   "description": "A nodejs express angular generator for Yeoman",
   "repository": {
    "type": "git",
