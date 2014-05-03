@@ -1,1 +1,1 @@
-var testApp = angular.module('testApp', [])
+var <%= _.slugify(appname) %>App = angular.module('<%= _.slugify(appname) %>App', [])

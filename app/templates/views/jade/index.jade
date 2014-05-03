@@ -1,7 +1,7 @@
 extends layout
 
 block content
-	div(ng-controller='testCtrl',style="padding-top: 50px;")
+	div(ng-controller='<%= _.slugify(appname) %>Ctrl',style="padding-top: 50px;")
 		.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
 			.container
 				.navbar-header
